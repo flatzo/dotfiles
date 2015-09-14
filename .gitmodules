@@ -1,0 +1,8 @@
+[submodule ".vim/bundle/Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+	branch = master
+[submodule ".zsh/antigen"]
+	path = .zsh/antigen
+	url = https://github.com/zsh-users/antigen.git
+	branch = master
