@@ -43,6 +43,9 @@ URxvt*color13: #9979de
 URxvt*color14: #fd8129
 URxvt*color15: #cccccc
 
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+
 ! URxvt Molokai
 !URxvt*background  : Molokai_black
 !URxvt*foreground  : Molokai_white
@@ -171,7 +174,7 @@ URxvt*letterSpace:                    -1
 ! URxvt*secondaryScroll:                boolean
 ! URxvt*perl-lib:                       string
 ! URxvt*perl-eval:                      perl-eval
-! URxvt*perl-ext-common:                string
+URxvt*perl-ext-common:                string,resize-font
 ! URxvt*perl-ext:                       string
 ! URxvt*iso14755:                       boolean
 ! URxvt*iso14755_52:                    boolean
