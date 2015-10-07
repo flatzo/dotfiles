@@ -41,7 +41,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'avakhov/vim-yaml'
 
 " Python
-Plugin 'klen/python-mode'
+"Plugin 'klen/python-mode'
 "Plugin 'nvie/vim-pyunit'
 Plugin 'JarrodCTaylor/vim-python-test-runner'
 
@@ -87,6 +87,7 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'Shougo/vimshell.vim'
 "Plugin 'Shougo/neocomplcache.vim'
 Plugin 'Shougo/unite.vim'
+Plugin 'Shougo/vimproc.vim'
 " Plugin 'indexer.tar.gz'
 
 " ColorScheme "
