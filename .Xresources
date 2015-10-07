@@ -21,7 +21,7 @@ Xft.antialias	: true
 Xft.hinting	: true
 Xft.hintstyle	: hintsfull
 Xft.rgba	: rgb
-Xft.dpi		: 96
+Xft.dpi		: 190.0
 
 URxvt*background  : #1c1c1c
 URxvt*foreground  : #cccccc
@@ -138,7 +138,7 @@ URxvt*cursorBlink:                    True
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
 !URxvt.font:                            xft:Terminus:style=Regular:size=10
-URxvt.font:                            xft:dejavu sans mono for powerline:size=10:antialias=true
+URxvt.font:                            xft:dejavu sans mono for powerline:size=8:antialias=true
 !URxvt.font:                            -misc-monaco for powerline-medium-r-normal--0-0-0-0-p-0-iso8859-1
 ! URxvt*boldFont:                       fontname
 ! URxvt*italicFont:                     fontname
