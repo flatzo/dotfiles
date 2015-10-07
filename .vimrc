@@ -166,10 +166,6 @@ let g:pymode_rope_completion_on_dot = 0
 " NERDTree
 let NERDTreeIgnore = ['\.pyc$']
 
-" Jira
-let g:jiracomplete_url = 'http://apljira:2002/'
-let g:jiracomplete_username = 'c.briere'
-
 " Neocomplcache
 let g:neocomplcache_enable_at_startup = 1
 
