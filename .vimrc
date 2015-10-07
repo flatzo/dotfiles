@@ -141,9 +141,9 @@ let g:vinarise_enable_auto_detect = 0
 " Syntastic
 let g:syntastic_check_on_open = 1
 let g:syntastic_python_checkers = ['pylint', 'pep8', 'vulture']
-let g:syntastic_python_python_exe = 'python2'
-let g:syntastic_python_pep8_exe = 'pep8-python2'
-let g:syntastic_python_pylint_exe = "pylint2"
+let g:syntastic_python_python_exe = 'python'
+let g:syntastic_python_pep8_exe = 'pep8-python'
+let g:syntastic_python_pylint_exe = "pylint"
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_enable_signs = 1
 let g:syntastic_error_symbol = "✗"
