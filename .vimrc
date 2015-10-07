@@ -21,6 +21,10 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+
 " Languages
 Plugin 'c.vim'
 Plugin 'majutsushi/tagbar'
@@ -71,7 +75,8 @@ Plugin 'tpope/vim-git'
 Plugin 'mnpk/vim-jira-complete'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'bling/vim-airline'
+"Plugin 'powerline/powerline'
+"Plugin 'bling/vim-airline'
 Plugin 'edkolev/promptline.vim'
 Plugin 'grep.vim'
 Plugin 'rbgrouleff/bclose.vim'
